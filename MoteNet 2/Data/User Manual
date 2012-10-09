@@ -1,0 +1,41 @@
+MoteNet User Manual
+
+This document will guide user in using MoteNet Lab.
+After logging in, a user will see the following options:
+Options:
+To create a job type 1 followed by enter
+To edit a job type 2 followed by enter
+To schedule a job type 3 followed by enter
+To logout type 4 followed by enter
+To see status of motes type 5 followed by enter
+To view the data of jobs type 6 followed by enter
+To view the connectivity map of motes type 7 followed by enter
+
+To Create a job
+  1.Type the path of the file with following format:
+       Job name in 1st line
+       Job description in 2nd line
+       Number of executables in 3rd line
+       Number of classfiles in 4th line
+       Path of each executable in single line
+       Path of each classfile in single line
+     
+  2.Type the path of the file with following format:
+       For each executable write it’s path in 1st line and write moteids, on which it
+       has to be run, separated by space in next line.
+
+
+
+To edit a job
+  Currently,this option is not supported in the MoteNet lab.
+
+To schedule a job
+  After selecting this option, all jobs created by user will be listed.
+  Select a job which you want to schedule.
+  A list of conscutive slots (5 mins of each slot) starting 10 minutes from current time will be displayed.
+  Select an unoccupied slot by typing the slot number.
+	  If user wants to schedule a job for more than 5 minutes then user has to select consecutive slots.
+
+To collect data of the experiments
+  Select option 6, and path of the directory in which data is stored will be displayed.
+

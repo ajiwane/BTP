@@ -1,0 +1,29 @@
+MoteNet 
+
+This document have all the information for the administrators so as to run the MoteNet lab code.
+
+Before starting the code of the lab:
+All the machines of the lab (Minornodes and central server) should have a "motenet" directory under home folder of the machine.
+
+All the machines of the lab (Minornodes and central server) should have a "motestat" directory under "motenet" directory and they should also have main.exe (motestat tinyos executable),StatusMessage.class,StatusMessage (copy of StatusMessage.class file) files in motestat directory.
+
+All the machines of the lab (Minornodes and central server) should have "admin/job1" directory under motenet directory and they should also have  main.exe(Moteconnectivity executable file),MCMsg.class,MCMsg (copy of class file) files under job1 directory.
+
+Each machine should have a "minorNodeDetails" file in the Eclipse project.
+Format of this file:
+path of the motenet directory of the machine in 1st line
+ipaddress of the machine in 2nd line
+username of the machine in 3rd line
+password of the machine in 4th line
+ipaddress of the central server machine (10.129.50.149) in 5th line
+username of the central server machine (ashwin) in 6th line
+password of the central server machine (ashwin123) in 7th line
+path of the motenet directory of the central server machine (machine/home/ashwin/motenet/) in 8th line
+
+
+Database server of the central server should be running.
+Values (0,0,0) must be inserted in "curid" table of the database before starting the central server.
+
+MoteNet Project requires  postgresql-8.3-604.jdbc3.jar,sshfactory.jar,tinyos.jar jar files to run the code.
+
+All the data required is provided in the required folder.
